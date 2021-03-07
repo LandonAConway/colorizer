@@ -76,6 +76,8 @@ local ui = function(pos, player, cartridge)
     "label[9.5,0.5;Cartridge]"..
     "label[9.5,2.3;Ink Level: "..cartridge_level.."]"..
     "label[1.3,4.5;Inventory]"
+    "listring["..node_inv..";output]"..
+    "listring[current_player;main]"
     
     return formspec
 end
